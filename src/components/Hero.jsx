@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import Headphone from "../../public/Headphone.avif";
 import ps5 from "../../public/ps5.jpg.png";
-import vision from "../../public/vision.png";
+import vision from "../../public/Vision.png";
 
 const HeroData = [
   {
