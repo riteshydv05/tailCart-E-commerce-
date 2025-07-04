@@ -11,27 +11,27 @@ function Partners() {
             {/* Partner logos go here */}
             <div className="flex justify-center">
               <img
-                src="../../public/Apple.png"
+                src="/Apple.png"
                 alt="Partner 1"
                 className="h-20"
               />
             </div>
             <div className="flex justify-center">
               <img
-                src="../../public/Samsung.png"
+                src="/Samsung.png"
                 alt="Partner 2"
                 className="h-20"
               />
             </div>
             <div className="flex justify-center">
               <img
-                src="../../public/Oneplus.png"
+                src="/Oneplus.png"
                 alt="Partner 3"
                 className="h-20"
               />
             </div>
             <div className="flex justify-center">
-              <img src="../../public/Lg.png" alt="Partner 4" className="h-20" />
+              <img src="/Lg.png" alt="Partner 4" className="h-20" />
             </div>
           </div>
         </div>
