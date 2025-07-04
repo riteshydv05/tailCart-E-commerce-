@@ -1,8 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
-import Headphone from "../../public/Headphone.avif";
-import ps5 from "../../public/ps5.jpg.png";
-import vision from "../../public/Vision.png";
+import Headphone from "/Headphone.avif";
+import ps5 from "/ps5.jpg.png";
+import vision from "/Vision.png";
 
 const HeroData = [
   {
