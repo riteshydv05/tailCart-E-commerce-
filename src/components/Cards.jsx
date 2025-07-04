@@ -1,6 +1,6 @@
 import React from "react";
 import airpods from "../../public/Airpods.webp";
-import watch from "../../public/watch.png";
+import watch from "../../public/Watch.png";
 import mac from "../../public/Macbook.png";
 import speaker from "../../public/Speakers.png";
 import phone from "../../public/Phone.png";
