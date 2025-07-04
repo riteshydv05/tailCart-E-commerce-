@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <title>tailCart</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <!-- Set theme early to avoid flash -->
+<script>
+  if (localStorage.getItem("theme") === "dark") {
+    document.documentElement.setAttribute("data-theme", "dark");
+  } else {
+    document.documentElement.setAttribute("data-theme", "light");
+  }
+</script>
+
+<!-- Tailwind v4 + DaisyUI CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    plugins: [daisyui],
+    daisyui: {
+      themes: ["light", "dark"], // Or use 'cupcake', 'dracula', etc.
+    },
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/daisyui"></script>
+
+  </body>
+</html>
