@@ -1,10 +1,10 @@
 import React from "react";
-import airpods from "../../public/Airpods.webp";
-import watch from "../../public/Watch.png";
-import mac from "../../public/Macbook.png";
-import speaker from "../../public/Speakers.png";
-import phone from "../../public/Phone.png";
-import ps5 from "../../public/ps5.jpg.png";
+import airpods from "/Airpods.webp";
+import watch from "/Watch.png";
+import mac from "/Macbook.png";
+import speaker from "/Speakers.png";
+import phone from "/Phone.png";
+import ps5 from "/ps5.jpg.png";
 
 function Cards() {
   return (
