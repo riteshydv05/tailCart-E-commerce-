@@ -1,8 +1,8 @@
 import React from "react";
-import delivery from "../../public/Delivery.png";
-import payment from "../../public/Payment.png";
-import returns from "../../public/Returns.png";
-import customer from "../../public/Customer.png";
+import delivery from "/Delivery.png";
+import payment from "/Payment.png";
+import returns from "/Returns.png";
+import customer from "/Customer.png";
 function Services() {
   return (
     <>
